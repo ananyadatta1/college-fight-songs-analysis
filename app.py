@@ -136,3 +136,13 @@ if show_raw_data:
     st.divider()
     st.subheader("Raw Dataset")
     st.dataframe(df)
+
+
+st.divider()
+footer_col1, footer_col2 = st.columns(2)
+
+with footer_col1:
+    st.caption("📊 **Data Credits:** [College Fight Song Dataset](https://github.com/fivethirtyeight/data/blob/master/fight-songs/fight-songs.csv)")
+    
+with footer_col2:
+    st.caption("💻 **Developed by:** [Ananya Datta] | [GitHub](https://github.com/ananyadatta1)")
