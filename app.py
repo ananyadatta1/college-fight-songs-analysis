@@ -38,7 +38,7 @@ show_raw_data = st.sidebar.checkbox("Show Raw Data")
 # --- MAIN HEADER ---
 st.title("🎶 College Fight Song DNA Explorer")
 st.markdown("""
-    **Is college spirit a formula?** We analyzed 65 fight songs to find out if conferences like the 
+    **Is college spirit a formula?** I analyzed 65 fight songs to find out if conferences like the 
     **Big Ten** and **SEC** have unique lyrical identities or if they all follow a 'Standardized Blueprint.'
 """)
 
